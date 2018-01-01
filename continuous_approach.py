@@ -71,6 +71,7 @@ for i in range(13,1988):
 print predictions
 print (total_hist)
 
+//Showing Result
 segmented=cv2.resize(segmented,(1000,500))
 cv2.imshow('CLustered',segmented)
 
